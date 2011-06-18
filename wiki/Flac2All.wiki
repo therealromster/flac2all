@@ -6,6 +6,10 @@ Flac2All is a multi-threaded script that will convert your collection of FLAC fi
 
 This program has been around in some form or another since 2005, with constant refinement.
 
+The project has a freshmeat page at http://freshmeat.net/projects/flac2all
+
+Originally it was hosted on this page: [http://www.ziva-vatra.com/index.php?aid=23&id=U29mdHdhcmU= Flac2All]
+
 = Details =
 
   * Python based
