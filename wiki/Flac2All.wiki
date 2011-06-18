@@ -1,0 +1,16 @@
+#summary One-sentence summary of this page.
+
+= Introduction =
+
+Flac2All is a multi-threaded script that will convert your collection of FLAC files into either Ogg Vorbis, MP3 (with the Lame encoder), or FLAC, complete with any tags and identical file/folder structure. The script has been stable for about a year now, and it has been known to saturate 8-core machines with parallel conversions. It is useful for people with with large FLAC collections who also want a lossy version for portable media players. If wanted, the script can perform updates by skipping already converted files.
+
+This program has been around in some form or another since 2005, with constant refinement.
+
+= Details =
+
+  * Python based
+  * Can convert from FLAC to mp3,ogg vorbis or FLAC
+  * Multiprocess support, for parallel conversion (excellent for multi CPU setups)
+  * Tags are transferred along with the conversion
+  * Optionally non-flac file (like cue,jpg etc...) can be optionally copied over
+  * Tested on Linux, should work on other systems with Python + required dependencies
