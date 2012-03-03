@@ -23,4 +23,4 @@ That's it really :)
       * output directory redirection
       * Code cleanup
 
-  * If you want any features, this is the place to add them, feel free to send me a patch (if you ask nicely, I may implement it myself, but know my time is limited, sorry  :(   )
+  * If you want any features, this is the place to add them, feel free to send me a patch. If you ask nicely, I may implement it myself, but know my time is limited, sorry =( 
