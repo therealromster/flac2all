@@ -19,3 +19,9 @@ Originally it was hosted on this page: [http://www.ziva-vatra.com/index.php?aid=
   * Tags are transferred along with the conversion
   * Optionally non-flac file (like cue,jpg etc...) can be optionally copied over
   * Tested on Linux, should work on other systems with Python + required dependencies
+
+= News =
+== Sat Mar 10 2012 == 
+  * Archlinux package now available! https://aur.archlinux.org/packages.php?ID=57418  (Many thanks to archlinux's graysky for the package)
+  * Some bug fixes, new features being added to the development version! Feel free to go test it out from the svn repo dev trunk.
+
