@@ -10,19 +10,21 @@ The current stable (v3) depends on the following:
   * vorbis-tools (oggenc + friends, if you want vorbis encoding)
   * Nero's AAC+ encoder, cmdline version (if you want to AACplus encoding)
 
+The depreciated version 2 of the script depends on the same as above, except:
+  * Python 2.5+, but not 3.0.
+  * No need for the AAC+ Encoder
 
 
-This script depends on:
-
-    Python (2.5+, but not 3.0).
 These programs should ideally be available in your PATH variable, if they are not, then edit the script's path variables to point to the executables.
 
 On v3, the following would need to be changed for non-PATH binaries:
-  * flacpath="" #path to flac binary, blank by default
-  * metaflacpath="" #path to metaflac, blank be default
-  * oggencpath="" #path to oggenc binary, blank by default
-  * lamepath="" #path to lame binary, blank by default
-  * aacpath="" #path to aacplus binary, blank by default
+{{{
+   flacpath="" #path to flac binary, blank by default
+   metaflacpath="" #path to metaflac, blank be default
+   oggencpath="" #path to oggenc binary, blank by default
+   lamepath="" #path to lame binary, blank by default
+   aacpath="" #path to aacplus binary, blank by default
+}}}
 
 = Usage =
 
@@ -97,4 +99,3 @@ If you wanted to make any changes, you would have to edit the script yourself. H
 [http://www.ziva-vatra.com/imagecompatibility.php?render=c2NyMkAyMw==%22&forgoogle=itisa.png]
 
 The script is pretty well commented, so you should be able to work out what needs to be set to get it exactly the way you want. If you have trouble, just email me to let me know (or you can create an issue on the tracker). 
-
