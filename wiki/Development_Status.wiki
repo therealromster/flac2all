@@ -15,12 +15,18 @@ That's it really :)
  
   * Only bugfixes are committed. Usable for day to day use, or incorporation into your own scripts.
 
-= Development branch = 
-  * This is where new features are stuck! Features currently added:
-      * Ability to copy non flac files across. Requested so you can copy album art, cue files or log files across.
-      * New option system. No longer do you need to edit the script to set common variables. Now you can do it on the command line, like a real program! :P
-      * More intelligent path generation
-      * output directory redirection
-      * Code cleanup
+  * If you do find a bug in the stable version, before writing a patch please check out the latest SVN stable, your bug may have been already fixed, and is just waiting for a push :). 
 
-  * If you want any features, this is the place to add them, feel free to send me a patch. If you ask nicely, I may implement it myself, but know my time is limited, sorry =( 
+= Development branch = 
+
+  * Ideas for the development version of flac2all:
+    * Cleaner multi process implementation
+    * Support for testing of flac files, and write to log
+    * Proper error handling, with support for logging errors to file
+    * More encoder support? AAC is a request, but there lacks a decent open source AAC encoder, and not had much luck finding something for tagging such files. 
+
+  * If you have an idea for a feature, feel free to raise a ticket, and I'll see what I can do, but know my time is limited by my paid job, sorry =(  
+    * If your idea has merit and someone decides to implement it, I'll add it to this page
+
+  * If you want to have a go implementing your own feature, send me a patch, and if it is ok I'll push it into the trunk. 
+    * If you do want to implement on your own, please use the latest dev trunk checkout.
